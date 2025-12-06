@@ -1,0 +1,48 @@
+name: 'ADSMedia Send Email'
+description: 'Send emails via ADSMedia Email API in your GitHub Actions workflows'
+author: 'ADSMedia'
+branding:
+  icon: 'mail'
+  color: 'blue'
+
+inputs:
+  api-key:
+    description: 'ADSMedia API key'
+    required: true
+  to:
+    description: 'Recipient email address'
+    required: true
+  subject:
+    description: 'Email subject line'
+    required: true
+  html:
+    description: 'HTML content of the email'
+    required: false
+  text:
+    description: 'Plain text content (auto-generated from HTML if not provided)'
+    required: false
+  to-name:
+    description: 'Recipient name'
+    required: false
+  from-name:
+    description: 'Sender display name'
+    required: false
+  reply-to:
+    description: 'Reply-to email address'
+    required: false
+  server-id:
+    description: 'Specific server ID'
+    required: false
+
+outputs:
+  message-id:
+    description: 'The message ID of the sent email'
+  send-id:
+    description: 'The send ID for tracking'
+  status:
+    description: 'The status of the email'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
+

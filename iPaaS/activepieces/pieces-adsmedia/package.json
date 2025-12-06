@@ -1,0 +1,26 @@
+{
+  "name": "@activepieces/piece-adsmedia",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "ADSMedia Email API piece for Activepieces",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "activepieces",
+    "adsmedia",
+    "email",
+    "api"
+  ],
+  "author": "ADSMedia <dev@adsmedia.ai>",
+  "license": "MIT",
+  "dependencies": {
+    "@activepieces/pieces-framework": "^0.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
+

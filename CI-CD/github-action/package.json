@@ -1,0 +1,26 @@
+{
+  "name": "adsmedia-send-email-action",
+  "version": "1.0.0",
+  "description": "GitHub Action to send emails via ADSMedia API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build src/index.ts -o dist",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "github-action",
+    "adsmedia",
+    "email"
+  ],
+  "author": "ADSMedia <dev@adsmedia.ai>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@vercel/ncc": "^0.38.0",
+    "typescript": "^5.0.0"
+  }
+}
+

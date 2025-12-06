@@ -28,6 +28,8 @@
 | [n8n](#-n8n-community-node) | Community Node | ✅ Ready | Automate email workflows |
 | [Cursor IDE](#-cursor-ide-mcp) | MCP | ✅ Ready | AI-powered email sending |
 | [Pipedream](#-pipedream) | iPaaS | ✅ Ready | Workflow automation |
+| [Activepieces](#-activepieces) | iPaaS | ✅ Ready | Open-source automation |
+| [GitHub Action](#-github-action) | CI/CD | ✅ Ready | Send emails from workflows |
 
 ---
 
@@ -249,6 +251,47 @@ Official Pipedream components for workflow automation.
 2. Enter your API key
 
 📁 **Path:** `iPaaS/pipedream/adsmedia/`
+
+---
+
+## 🧩 Activepieces
+
+Official Activepieces piece for open-source automation.
+
+### Available Actions
+- **Send Email** - Single transactional email
+- **Send Batch** - Marketing emails with tracking
+- **Create Campaign** - Create campaigns
+- **Add Contacts** - Add to lists
+- **Get Campaign Stats** - Statistics
+
+📁 **Path:** `iPaaS/activepieces/pieces-adsmedia/`
+
+---
+
+## 🚀 GitHub Action
+
+Send emails from GitHub Actions workflows - perfect for deployment notifications, build alerts, and release announcements.
+
+### Usage
+
+```yaml
+- name: Send Email
+  uses: ADSMedia-ai/ADSMedia/CI-CD/github-action@main
+  with:
+    api-key: ${{ secrets.ADSMEDIA_API_KEY }}
+    to: team@example.com
+    subject: 'Deployed: ${{ github.repository }}'
+    html: '<h1>Deployment Complete</h1>'
+```
+
+### Inputs
+- `api-key` - ADSMedia API key (required)
+- `to` - Recipient email (required)
+- `subject` - Email subject (required)
+- `html` / `text` - Content (one required)
+
+📁 **Path:** `CI-CD/github-action/`
 
 ---
 
