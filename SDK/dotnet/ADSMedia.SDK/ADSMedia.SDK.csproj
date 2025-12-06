@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>ADSMedia.SDK</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>ADSMedia</Authors>
+    <Company>ADSMedia</Company>
+    <Description>Official .NET SDK for ADSMedia Email API</Description>
+    <PackageTags>adsmedia;email;api;sdk;transactional;marketing</PackageTags>
+    <PackageProjectUrl>https://github.com/ADSMedia-ai/ADSMedia</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ADSMedia-ai/ADSMedia</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
+

@@ -43,6 +43,10 @@
 | [Directus](#-directus) | CMS Extension | ✅ Ready | Headless email |
 | [Payload CMS](#-payload-cms) | CMS Plugin | ✅ Ready | Headless email |
 | [PHP SDK](#-php-sdk) | Packagist | ✅ Ready | composer require |
+| [.NET SDK](#-net-sdk) | NuGet | ✅ Ready | dotnet add |
+| [LlamaIndex](#-llamaindex) | AI Tool | ✅ Ready | LLM tool |
+| [FlowiseAI](#-flowiseai) | AI Tool | ✅ Ready | Custom tool |
+| [Webhook Handler](#-webhook-handler) | Generic | ✅ Ready | Multi-platform |
 
 ---
 
@@ -516,6 +520,62 @@ $result = $client->send([
 ```
 
 📁 **Path:** `SDK/php/adsmedia-php/`
+
+---
+
+## 💜 .NET SDK
+
+Official .NET SDK for NuGet.
+
+```bash
+dotnet add package ADSMedia.SDK
+```
+
+```csharp
+var client = new ADSMediaClient("your-api-key");
+var result = await client.SendAsync(new SendEmailRequest
+{
+    To = "user@example.com",
+    Subject = "Hello!",
+    Html = "<h1>Welcome!</h1>",
+});
+```
+
+📁 **Path:** `SDK/dotnet/ADSMedia.SDK/`
+
+---
+
+## 🦙 LlamaIndex
+
+LlamaIndex tools for AI agents.
+
+```python
+from adsmedia_tool import get_adsmedia_tools
+tools = get_adsmedia_tools()
+agent = ReActAgent.from_tools(tools, llm=llm)
+```
+
+📁 **Path:** `AI/llamaindex/`
+
+---
+
+## 🌊 FlowiseAI
+
+Custom tool for FlowiseAI.
+
+Import `adsmedia-tool.json` into FlowiseAI.
+
+📁 **Path:** `AI/flowise/`
+
+---
+
+## 🔗 Webhook Handler
+
+Generic webhook handler for multiple platforms.
+
+Supports: Tally, Gumroad, Lemon Squeezy, Cal.com, Acuity, etc.
+
+📁 **Path:** `webhooks/generic/`
 
 ---
 
