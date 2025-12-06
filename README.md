@@ -30,6 +30,8 @@
 | [Pipedream](#-pipedream) | iPaaS | ✅ Ready | Workflow automation |
 | [Activepieces](#-activepieces) | iPaaS | ✅ Ready | Open-source automation |
 | [GitHub Action](#-github-action) | CI/CD | ✅ Ready | Send emails from workflows |
+| [Google Sheets](#-google-sheets) | Apps Script | ✅ Ready | Send from spreadsheets |
+| [Supabase](#-supabase) | Edge Function | ✅ Ready | Serverless email |
 
 ---
 
@@ -292,6 +294,26 @@ Send emails from GitHub Actions workflows - perfect for deployment notifications
 - `html` / `text` - Content (one required)
 
 📁 **Path:** `CI-CD/github-action/`
+
+---
+
+## 📊 Google Sheets
+
+Send emails directly from spreadsheets using Apps Script.
+
+### Custom Functions
+```
+=ADSMEDIA_PING()
+=ADSMEDIA_SEND(A1, B1, C1)
+=ADSMEDIA_CHECK_SUPPRESSION(A1)
+```
+
+### Menu
+- Send Bulk Emails (row by row)
+- Send Batch Emails (personalized)
+- View Usage Stats
+
+📁 **Path:** `plugins/google-sheets/`
 
 ---
 
