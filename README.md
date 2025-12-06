@@ -51,6 +51,9 @@
 | [Mattermost](#-mattermost) | Plugin | ✅ Ready | Slash commands |
 | [Automatisch](#-automatisch) | Connector | ✅ Ready | Open-source Zapier |
 | [Cloudflare Workers](#-cloudflare-workers) | Serverless | ✅ Ready | Edge email |
+| [AutoGPT](#-autogpt) | Plugin | ✅ Ready | AI agent |
+| [Slack Bot](#-slack-bot) | Bot | ✅ Ready | Slash commands |
+| [Vercel](#-vercel) | Serverless | ✅ Ready | Edge functions |
 
 ---
 
@@ -636,6 +639,47 @@ wrangler deploy
 ```
 
 📁 **Path:** `serverless/cloudflare-workers/`
+
+---
+
+## 🤖 AutoGPT
+
+Plugin for AutoGPT autonomous agents.
+
+**Commands:**
+- `set_adsmedia_api_key`
+- `send_email_adsmedia`
+- `check_email_suppression`
+- `test_adsmedia_connection`
+
+📁 **Path:** `AI/autogpt/adsmedia_plugin/`
+
+---
+
+## 💼 Slack Bot
+
+Slack bot with slash commands.
+
+```
+/email user@example.com Subject | Body
+/check-email user@example.com
+/email-usage
+```
+
+📁 **Path:** `bots/slack/`
+
+---
+
+## ▲ Vercel
+
+Serverless API on Vercel.
+
+```
+POST /api/send
+GET  /api/check?email=user@example.com
+```
+
+📁 **Path:** `serverless/vercel/`
 
 ---
 
