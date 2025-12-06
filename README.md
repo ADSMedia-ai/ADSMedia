@@ -190,7 +190,7 @@ const result = await client.send({
 - ✅ Zero dependencies
 - ✅ All API endpoints covered
 
-📁 **Path:** `SDK/npm/adsmedia-sdk/`
+📁 **Path:** [`SDK/npm/adsmedia-sdk/`](SDK/npm/adsmedia-sdk/)
 
 ---
 
@@ -228,7 +228,7 @@ result = client.send(
 - ✅ Simple, Pythonic interface
 - ✅ Supports Python 3.8+
 
-📁 **Path:** `SDK/python/adsmedia/`
+📁 **Path:** [`SDK/python/adsmedia/`](SDK/python/adsmedia/)
 
 ---
 
@@ -250,7 +250,7 @@ Replace WordPress default `wp_mail()` function with ADSMedia API for better deli
 4. Go to **Settings → ADSMedia Email**
 5. Enter your API key
 
-📁 **Path:** `plugins/WP/adsmedia-email/`
+📁 **Path:** [`plugins/WP/adsmedia-email/`](plugins/WP/adsmedia-email/)
 
 ---
 
@@ -284,7 +284,7 @@ Send all WooCommerce transactional emails through ADSMedia API.
 4. Activate in WordPress admin
 5. Go to **WooCommerce → ADSMedia**
 
-📁 **Path:** `plugins/WooCommerce/adsmedia-woocommerce/`
+📁 **Path:** [`plugins/WooCommerce/adsmedia-woocommerce/`](plugins/WooCommerce/adsmedia-woocommerce/)
 
 ---
 
@@ -322,7 +322,7 @@ npm install
 npm link
 ```
 
-📁 **Path:** `plugins/n8n/n8n-nodes-adsmedia/`
+📁 **Path:** [`plugins/n8n/n8n-nodes-adsmedia/`](plugins/n8n/n8n-nodes-adsmedia/)
 
 ---
 
@@ -354,7 +354,7 @@ Add to your `~/.cursor/mcp.json`:
 }
 ```
 
-📁 **Path:** `MCP/cursor/`
+📁 **Path:** [`MCP/cursor/`](MCP/cursor/)
 
 ---
 
@@ -373,7 +373,7 @@ Official Pipedream components for workflow automation.
 1. In Pipedream → **Accounts** → Connect "ADSMedia"
 2. Enter your API key
 
-📁 **Path:** `iPaaS/pipedream/adsmedia/`
+📁 **Path:** [`iPaaS/pipedream/adsmedia/`](iPaaS/pipedream/adsmedia/)
 
 ---
 
@@ -388,7 +388,7 @@ Official Activepieces piece for open-source automation.
 - **Add Contacts** - Add to lists
 - **Get Campaign Stats** - Statistics
 
-📁 **Path:** `iPaaS/activepieces/pieces-adsmedia/`
+📁 **Path:** [`iPaaS/activepieces/pieces-adsmedia/`](iPaaS/activepieces/pieces-adsmedia/)
 
 ---
 
@@ -414,7 +414,7 @@ Send emails from GitHub Actions workflows - perfect for deployment notifications
 - `subject` - Email subject (required)
 - `html` / `text` - Content (one required)
 
-📁 **Path:** `CI-CD/github-action/`
+📁 **Path:** [`CI-CD/github-action/`](CI-CD/github-action/)
 
 ---
 
@@ -434,7 +434,7 @@ Send emails directly from spreadsheets using Apps Script.
 - Send Batch Emails (personalized)
 - View Usage Stats
 
-📁 **Path:** `plugins/google-sheets/`
+📁 **Path:** [`plugins/google-sheets/`](plugins/google-sheets/)
 
 ---
 
@@ -450,7 +450,7 @@ agent = initialize_agent(tools, llm, agent=AgentType.STRUCTURED_CHAT_ZERO_SHOT_R
 agent.run("Send welcome email to user@example.com")
 ```
 
-📁 **Path:** `AI/langchain/`
+📁 **Path:** [`AI/langchain/`](AI/langchain/)
 
 ---
 
@@ -464,7 +464,7 @@ from adsmedia_tool import get_adsmedia_tools
 email_agent = Agent(role="Email Specialist", tools=get_adsmedia_tools())
 ```
 
-📁 **Path:** `AI/crewai/`
+📁 **Path:** [`AI/crewai/`](AI/crewai/)
 
 ---
 
@@ -478,7 +478,7 @@ Send emails via Discord slash commands.
 - `/usage` - View stats
 - `/ping` - Test connection
 
-📁 **Path:** `bots/discord/`
+📁 **Path:** [`bots/discord/`](bots/discord/)
 
 ---
 
@@ -492,7 +492,7 @@ Send emails via Telegram chat commands.
 - `/usage` - View stats
 - `/ping` - Test connection
 
-📁 **Path:** `bots/telegram/`
+📁 **Path:** [`bots/telegram/`](bots/telegram/)
 
 ---
 
@@ -504,7 +504,7 @@ Tool provider for Dify AI workflows and agents.
 - Send Email
 - Check Suppression
 
-📁 **Path:** `AI/dify/`
+📁 **Path:** [`AI/dify/`](AI/dify/)
 
 ---
 
@@ -519,7 +519,7 @@ Deploy notification emails on success/failure.
     to = "team@example.com"
 ```
 
-📁 **Path:** `serverless/netlify/netlify-plugin-adsmedia/`
+📁 **Path:** [`serverless/netlify/netlify-plugin-adsmedia/`](serverless/netlify/netlify-plugin-adsmedia/)
 
 ---
 
@@ -547,7 +547,7 @@ await strapi.plugin('adsmedia').service('email').send({
 });
 ```
 
-📁 **Path:** `plugins/strapi/strapi-plugin-adsmedia/`
+📁 **Path:** [`plugins/strapi/strapi-plugin-adsmedia/`](plugins/strapi/strapi-plugin-adsmedia/)
 
 ---
 
@@ -572,7 +572,7 @@ Notification service for Medusa e-commerce.
 }
 ```
 
-📁 **Path:** `plugins/medusa/medusa-plugin-adsmedia/`
+📁 **Path:** [`plugins/medusa/medusa-plugin-adsmedia/`](plugins/medusa/medusa-plugin-adsmedia/)
 
 ---
 
@@ -586,7 +586,7 @@ GET  /adsmedia/check?email=user@example.com
 GET  /adsmedia/ping
 ```
 
-📁 **Path:** `plugins/directus/directus-extension-adsmedia/`
+📁 **Path:** [`plugins/directus/directus-extension-adsmedia/`](plugins/directus/directus-extension-adsmedia/)
 
 ---
 
@@ -601,7 +601,7 @@ const adsmedia = getADSMediaService();
 await adsmedia.send({ to, subject, html });
 ```
 
-📁 **Path:** `plugins/payload-cms/payload-plugin-adsmedia/`
+📁 **Path:** [`plugins/payload-cms/payload-plugin-adsmedia/`](plugins/payload-cms/payload-plugin-adsmedia/)
 
 ---
 
@@ -625,7 +625,7 @@ $result = $client->send([
 ]);
 ```
 
-📁 **Path:** `SDK/php/adsmedia-php/`
+📁 **Path:** [`SDK/php/adsmedia-php/`](SDK/php/adsmedia-php/)
 
 ---
 
@@ -647,7 +647,7 @@ var result = await client.SendAsync(new SendEmailRequest
 });
 ```
 
-📁 **Path:** `SDK/dotnet/ADSMedia.SDK/`
+📁 **Path:** [`SDK/dotnet/ADSMedia.SDK/`](SDK/dotnet/ADSMedia.SDK/)
 
 ---
 
@@ -661,7 +661,7 @@ tools = get_adsmedia_tools()
 agent = ReActAgent.from_tools(tools, llm=llm)
 ```
 
-📁 **Path:** `AI/llamaindex/`
+📁 **Path:** [`AI/llamaindex/`](AI/llamaindex/)
 
 ---
 
@@ -671,7 +671,7 @@ Custom tool for FlowiseAI.
 
 Import `adsmedia-tool.json` into FlowiseAI.
 
-📁 **Path:** `AI/flowise/`
+📁 **Path:** [`AI/flowise/`](AI/flowise/)
 
 ---
 
@@ -681,7 +681,7 @@ Generic webhook handler for multiple platforms.
 
 Supports: Tally, Gumroad, Lemon Squeezy, Cal.com, Acuity, etc.
 
-📁 **Path:** `webhooks/generic/`
+📁 **Path:** [`webhooks/generic/`](webhooks/generic/)
 
 ---
 
@@ -702,7 +702,7 @@ result = client.send_email(
 )
 ```
 
-📁 **Path:** `SDK/ruby/adsmedia/`
+📁 **Path:** [`SDK/ruby/adsmedia/`](SDK/ruby/adsmedia/)
 
 ---
 
@@ -714,7 +714,7 @@ Plugin with `/email` slash command.
 /email user@example.com "Subject" "Message"
 ```
 
-📁 **Path:** `plugins/mattermost/mattermost-plugin-adsmedia/`
+📁 **Path:** [`plugins/mattermost/mattermost-plugin-adsmedia/`](plugins/mattermost/mattermost-plugin-adsmedia/)
 
 ---
 
@@ -724,7 +724,7 @@ Open-source Zapier alternative connector.
 
 **Actions:** Send Email, Send Batch, Check Suppression, Add Contacts
 
-📁 **Path:** `iPaaS/automatisch/adsmedia-connector/`
+📁 **Path:** [`iPaaS/automatisch/adsmedia-connector/`](iPaaS/automatisch/adsmedia-connector/)
 
 ---
 
@@ -737,7 +737,7 @@ wrangler secret put ADSMEDIA_API_KEY
 wrangler deploy
 ```
 
-📁 **Path:** `serverless/cloudflare-workers/`
+📁 **Path:** [`serverless/cloudflare-workers/`](serverless/cloudflare-workers/)
 
 ---
 
@@ -751,7 +751,7 @@ Plugin for AutoGPT autonomous agents.
 - `check_email_suppression`
 - `test_adsmedia_connection`
 
-📁 **Path:** `AI/autogpt/adsmedia_plugin/`
+📁 **Path:** [`AI/autogpt/adsmedia_plugin/`](AI/autogpt/adsmedia_plugin/)
 
 ---
 
@@ -765,7 +765,7 @@ Slack bot with slash commands.
 /email-usage
 ```
 
-📁 **Path:** `bots/slack/`
+📁 **Path:** [`bots/slack/`](bots/slack/)
 
 ---
 
@@ -778,7 +778,7 @@ POST /api/send
 GET  /api/check?email=user@example.com
 ```
 
-📁 **Path:** `serverless/vercel/`
+📁 **Path:** [`serverless/vercel/`](serverless/vercel/)
 
 ---
 
@@ -793,7 +793,7 @@ const client = createADSMediaClient({ apiKey: '...' });
 await client.send({ to, subject, html });
 ```
 
-📁 **Path:** `plugins/keystone/keystone-plugin-adsmedia/`
+📁 **Path:** [`plugins/keystone/keystone-plugin-adsmedia/`](plugins/keystone/keystone-plugin-adsmedia/)
 
 ---
 
@@ -805,7 +805,7 @@ Serverless functions with Serverless Framework.
 serverless deploy
 ```
 
-📁 **Path:** `serverless/aws-lambda/`
+📁 **Path:** [`serverless/aws-lambda/`](serverless/aws-lambda/)
 
 ---
 
@@ -813,7 +813,7 @@ serverless deploy
 
 Microsoft Azure serverless functions.
 
-📁 **Path:** `serverless/azure-functions/`
+📁 **Path:** [`serverless/azure-functions/`](serverless/azure-functions/)
 
 ---
 
@@ -828,7 +828,7 @@ client = get_adsmedia_client()
 await client.send(EmailRequest(to=to, subject=subject, html=html))
 ```
 
-📁 **Path:** `frameworks/fastapi/`
+📁 **Path:** [`frameworks/fastapi/`](frameworks/fastapi/)
 
 ---
 
@@ -842,7 +842,7 @@ app.use(adsmediaMiddleware());
 await req.adsmedia.send({ to, subject, html });
 ```
 
-📁 **Path:** `frameworks/express/`
+📁 **Path:** [`frameworks/express/`](frameworks/express/)
 
 ---
 
@@ -855,7 +855,7 @@ import { sendEmail } from '@/lib/adsmedia';
 await sendEmail({ to, subject, html });
 ```
 
-📁 **Path:** `frameworks/nextjs/`
+📁 **Path:** [`frameworks/nextjs/`](frameworks/nextjs/)
 
 ---
 
@@ -873,7 +873,7 @@ client = get_client()
 client.send(to='user@example.com', subject='Hello!', html='<h1>Hi!</h1>')
 ```
 
-📁 **Path:** `frameworks/django/`
+📁 **Path:** [`frameworks/django/`](frameworks/django/)
 
 ---
 
@@ -889,7 +889,7 @@ adsmedia = ADSMedia(app)
 result = g.adsmedia.send(to='user@example.com', subject='Hello!', html='<h1>Hi!</h1>')
 ```
 
-📁 **Path:** `frameworks/flask/`
+📁 **Path:** [`frameworks/flask/`](frameworks/flask/)
 
 ---
 
@@ -905,7 +905,7 @@ ADSMediaModule.forRoot({ apiKey: 'your-key' })
 await this.adsmedia.send({ to, subject, html });
 ```
 
-📁 **Path:** `frameworks/nestjs/`
+📁 **Path:** [`frameworks/nestjs/`](frameworks/nestjs/)
 
 ---
 
@@ -919,7 +919,7 @@ app.use(adsmediaMiddleware({ apiKey: 'your-key' }));
 await ctx.adsmedia.send({ to, subject, html });
 ```
 
-📁 **Path:** `frameworks/koa/`
+📁 **Path:** [`frameworks/koa/`](frameworks/koa/)
 
 ---
 
@@ -934,7 +934,7 @@ client := GetADSMedia(c)
 client.Send(SendEmailRequest{To: to, Subject: subject, HTML: html})
 ```
 
-📁 **Path:** `frameworks/gin/`
+📁 **Path:** [`frameworks/gin/`](frameworks/gin/)
 
 ---
 
@@ -949,7 +949,7 @@ client := GetADSMedia(c)
 client.Send(SendEmailRequest{To: to, Subject: subject, HTML: html})
 ```
 
-📁 **Path:** `frameworks/fiber/`
+📁 **Path:** [`frameworks/fiber/`](frameworks/fiber/)
 
 ---
 
@@ -964,7 +964,7 @@ private ADSMediaClient adsMediaClient;
 adsMediaClient.send(request);
 ```
 
-📁 **Path:** `frameworks/spring-boot/`
+📁 **Path:** [`frameworks/spring-boot/`](frameworks/spring-boot/)
 
 ---
 
@@ -978,7 +978,7 @@ builder.Services.AddADSMedia(builder.Configuration);
 await _client.SendAsync(new SendEmailRequest { To = to, Subject = subject, Html = html });
 ```
 
-📁 **Path:** `frameworks/aspnet-core/`
+📁 **Path:** [`frameworks/aspnet-core/`](frameworks/aspnet-core/)
 
 ---
 
@@ -994,7 +994,7 @@ $adsmedia->send($to, $subject, $html);
 app('adsmedia')->send($email, $subject, $html);
 ```
 
-📁 **Path:** `frameworks/laravel/`
+📁 **Path:** [`frameworks/laravel/`](frameworks/laravel/)
 
 ---
 
@@ -1010,7 +1010,7 @@ ADSMedia.client.send_email(
 )
 ```
 
-📁 **Path:** `frameworks/rails/`
+📁 **Path:** [`frameworks/rails/`](frameworks/rails/)
 
 ---
 
@@ -1024,7 +1024,7 @@ Authentication: Bearer Token
 Base URL: https://api.adsmedia.live/v1
 ```
 
-📁 **Path:** `nocode/bubble/`
+📁 **Path:** [`nocode/bubble/`](nocode/bubble/)
 
 ---
 
@@ -1041,7 +1041,7 @@ const result = await ADSMedia.sendEmail.trigger({
 });
 ```
 
-📁 **Path:** `nocode/retool/`
+📁 **Path:** [`nocode/retool/`](nocode/retool/)
 
 ---
 
@@ -1049,7 +1049,7 @@ const result = await ADSMedia.sendEmail.trigger({
 
 Appsmith REST datasource and queries.
 
-📁 **Path:** `nocode/appsmith/`
+📁 **Path:** [`nocode/appsmith/`](nocode/appsmith/)
 
 ---
 
@@ -1057,7 +1057,7 @@ Appsmith REST datasource and queries.
 
 Glide API integration via Zapier/Make.
 
-📁 **Path:** `nocode/glide/`
+📁 **Path:** [`nocode/glide/`](nocode/glide/)
 
 ---
 
@@ -1065,7 +1065,7 @@ Glide API integration via Zapier/Make.
 
 FlutterFlow API calls integration.
 
-📁 **Path:** `nocode/flutterflow/`
+📁 **Path:** [`nocode/flutterflow/`](nocode/flutterflow/)
 
 ---
 
@@ -1073,7 +1073,7 @@ FlutterFlow API calls integration.
 
 Softr custom code blocks and Zapier integration.
 
-📁 **Path:** `nocode/softr/`
+📁 **Path:** [`nocode/softr/`](nocode/softr/)
 
 ---
 
@@ -1081,7 +1081,7 @@ Softr custom code blocks and Zapier integration.
 
 WeWeb REST API collections and workflows.
 
-📁 **Path:** `nocode/weweb/`
+📁 **Path:** [`nocode/weweb/`](nocode/weweb/)
 
 ---
 
@@ -1089,7 +1089,7 @@ WeWeb REST API collections and workflows.
 
 Adalo external collections integration.
 
-📁 **Path:** `nocode/adalo/`
+📁 **Path:** [`nocode/adalo/`](nocode/adalo/)
 
 ---
 
@@ -1097,7 +1097,7 @@ Adalo external collections integration.
 
 Budibase REST datasource and automations.
 
-📁 **Path:** `nocode/budibase/`
+📁 **Path:** [`nocode/budibase/`](nocode/budibase/)
 
 ---
 
@@ -1105,7 +1105,7 @@ Budibase REST datasource and automations.
 
 ToolJet REST API datasource and queries.
 
-📁 **Path:** `nocode/tooljet/`
+📁 **Path:** [`nocode/tooljet/`](nocode/tooljet/)
 
 ---
 
@@ -1113,7 +1113,7 @@ ToolJet REST API datasource and queries.
 
 Xano external API integration for backend.
 
-📁 **Path:** `nocode/xano/`
+📁 **Path:** [`nocode/xano/`](nocode/xano/)
 
 ---
 
@@ -1133,7 +1133,7 @@ Windsurf IDE MCP integration (same as Cursor).
 }
 ```
 
-📁 **Path:** `MCP/windsurf/`
+📁 **Path:** [`MCP/windsurf/`](MCP/windsurf/)
 
 ---
 
@@ -1141,7 +1141,7 @@ Windsurf IDE MCP integration (same as Cursor).
 
 Coze.com AI chatbot plugin for email operations.
 
-📁 **Path:** `AI/coze/`
+📁 **Path:** [`AI/coze/`](AI/coze/)
 
 ---
 
@@ -1149,7 +1149,7 @@ Coze.com AI chatbot plugin for email operations.
 
 Drupal system plugin for mail integration.
 
-📁 **Path:** `plugins/drupal/`
+📁 **Path:** [`plugins/drupal/`](plugins/drupal/)
 
 ---
 
@@ -1157,7 +1157,7 @@ Drupal system plugin for mail integration.
 
 Joomla system plugin for mail integration.
 
-📁 **Path:** `plugins/joomla/`
+📁 **Path:** [`plugins/joomla/`](plugins/joomla/)
 
 ---
 
@@ -1165,7 +1165,7 @@ Joomla system plugin for mail integration.
 
 Crisp chat webhook integration.
 
-📁 **Path:** `plugins/crisp/`
+📁 **Path:** [`plugins/crisp/`](plugins/crisp/)
 
 ---
 
@@ -1173,7 +1173,7 @@ Crisp chat webhook integration.
 
 Sanity.io CMS webhook and studio tool.
 
-📁 **Path:** `plugins/sanity/`
+📁 **Path:** [`plugins/sanity/`](plugins/sanity/)
 
 ---
 
@@ -1181,7 +1181,7 @@ Sanity.io CMS webhook and studio tool.
 
 Cal.com booking webhook integration.
 
-📁 **Path:** `scheduling/cal-com/`
+📁 **Path:** [`scheduling/cal-com/`](scheduling/cal-com/)
 
 ---
 
@@ -1189,7 +1189,7 @@ Cal.com booking webhook integration.
 
 Universal handler for form platforms: Tally, Fillout, Typeform, Jotform, Formspree, and more.
 
-📁 **Path:** `webhooks/forms/`
+📁 **Path:** [`webhooks/forms/`](webhooks/forms/)
 
 ---
 
@@ -1197,7 +1197,7 @@ Universal handler for form platforms: Tally, Fillout, Typeform, Jotform, Formspr
 
 Universal handler for e-commerce: Gumroad, Lemon Squeezy, Paddle, Stripe, Shopify.
 
-📁 **Path:** `webhooks/ecommerce/`
+📁 **Path:** [`webhooks/ecommerce/`](webhooks/ecommerce/)
 
 ---
 
@@ -1205,7 +1205,7 @@ Universal handler for e-commerce: Gumroad, Lemon Squeezy, Paddle, Stripe, Shopif
 
 Universal handler: Memberful, Memberstack, Circle, Teachable, Thinkific, Kajabi, Podia, Skool.
 
-📁 **Path:** `webhooks/memberships/`
+📁 **Path:** [`webhooks/memberships/`](webhooks/memberships/)
 
 ---
 
@@ -1213,7 +1213,7 @@ Universal handler: Memberful, Memberstack, Circle, Teachable, Thinkific, Kajabi,
 
 Universal handler: Acuity, Calendly, YouCanBook.me, Setmore, SimplyBook.me, Square.
 
-📁 **Path:** `webhooks/scheduling/`
+📁 **Path:** [`webhooks/scheduling/`](webhooks/scheduling/)
 
 ---
 
@@ -1221,7 +1221,7 @@ Universal handler: Acuity, Calendly, YouCanBook.me, Setmore, SimplyBook.me, Squa
 
 Alert handler for: PostHog, Mixpanel, Amplitude, Plausible.
 
-📁 **Path:** `webhooks/analytics/`
+📁 **Path:** [`webhooks/analytics/`](webhooks/analytics/)
 
 ---
 
@@ -1229,7 +1229,7 @@ Alert handler for: PostHog, Mixpanel, Amplitude, Plausible.
 
 Universal handler: Demio, WebinarJam, eWebinar, BigMarker, Crowdcast.
 
-📁 **Path:** `webhooks/webinars/`
+📁 **Path:** [`webhooks/webinars/`](webhooks/webinars/)
 
 ---
 
