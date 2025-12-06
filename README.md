@@ -32,6 +32,10 @@
 | [GitHub Action](#-github-action) | CI/CD | ✅ Ready | Send emails from workflows |
 | [Google Sheets](#-google-sheets) | Apps Script | ✅ Ready | Send from spreadsheets |
 | [Supabase](#-supabase) | Edge Function | ✅ Ready | Serverless email |
+| [LangChain](#-langchain) | AI Tool | ✅ Ready | LLM agent tool |
+| [CrewAI](#-crewai) | AI Tool | ✅ Ready | Multi-agent tool |
+| [Discord](#-discord-bot) | Bot | ✅ Ready | Slash commands |
+| [Telegram](#-telegram-bot) | Bot | ✅ Ready | Chat commands |
 
 ---
 
