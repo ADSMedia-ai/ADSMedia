@@ -128,6 +128,31 @@
 | [ProductBoard](#-productboard) | Product | ✅ Ready | Feature updates |
 | [EasyPost](#-easypost) | Shipping | ✅ Ready | Tracking emails |
 | [Additional Webhooks](#-additional-webhooks) | Various | ✅ Ready | 15+ platforms |
+| [Capsule](#-capsule) | CRM | ✅ Ready | Contact emails |
+| [Wave](#-wave) | Finance | ✅ Ready | Invoice emails |
+| [Ortto](#-ortto) | Marketing | ✅ Ready | Automation |
+| [Rows](#-rows) | Spreadsheet | ✅ Ready | Mail merge |
+| [Taskade](#-taskade) | Project | ✅ Ready | Task notifications |
+| [Height](#-height) | Project | ✅ Ready | Issue emails |
+| [Loom](#-loom) | Video | ✅ Ready | Share notifications |
+| [Nutshell](#-nutshell) | CRM | ✅ Ready | Lead emails |
+| [Nimble](#-nimble) | CRM | ✅ Ready | Contact emails |
+| [Mighty Networks](#-mighty-networks) | Community | ✅ Ready | Member emails |
+| [Refersion](#-refersion) | Affiliate | ✅ Ready | Commission emails |
+| [Everflow](#-everflow) | Affiliate | ✅ Ready | Partner emails |
+| [Ontraport](#-ontraport) | Marketing | ✅ Ready | Automation |
+| [UserVoice](#-uservoice) | Feedback | ✅ Ready | Feature updates |
+| [JazzHR](#-jazzhr) | ATS | ✅ Ready | Candidate emails |
+| [Factorial](#-factorial) | HR | ✅ Ready | Employee emails |
+| [Canvas LMS](#-canvas-lms) | Education | ✅ Ready | Grade notifications |
+| [Weglot](#-weglot) | Translation | ✅ Ready | Localized emails |
+| [Doodle](#-doodle) | Scheduling | ✅ Ready | Poll notifications |
+| [Mercury](#-mercury) | Finance | ✅ Ready | Banking alerts |
+| [Booksy](#-booksy) | Booking | ✅ Ready | Appointment emails |
+| [Healthie](#-healthie) | Healthcare | ✅ Ready | Patient emails |
+| [Creator Webhooks](#-creator-webhooks) | Creator | ✅ Ready | Ko-fi, BMC, Skool |
+| [Chat Webhooks](#-chat-webhooks) | Support | ✅ Ready | Olark, Tawk.to, etc |
+| [Healthcare Webhooks](#-healthcare-webhooks) | Healthcare | ✅ Ready | Jane, Cliniko, etc |
 
 ---
 
@@ -1567,6 +1592,206 @@ Shipping API.
 Universal handlers for 15+ platforms including Reform, Basin, Paperform, Cognito Forms, Wufoo, Carrd, NocoDB, Recurly, Survicate, Canny, and more.
 
 📁 **Path:** [`webhooks/additional/`](webhooks/additional/)
+
+---
+
+## 👥 Capsule
+
+CRM for contact management.
+
+📁 **Path:** [`api-docs/capsule/`](api-docs/capsule/)
+
+---
+
+## 💰 Wave
+
+Accounting and invoicing.
+
+📁 **Path:** [`api-docs/wave/`](api-docs/wave/)
+
+---
+
+## 🎯 Ortto
+
+Marketing automation (formerly Autopilot).
+
+📁 **Path:** [`api-docs/ortto/`](api-docs/ortto/)
+
+---
+
+## 📊 Rows
+
+Spreadsheet with automations.
+
+📁 **Path:** [`api-docs/rows/`](api-docs/rows/)
+
+---
+
+## ✅ Taskade
+
+Team productivity.
+
+📁 **Path:** [`api-docs/taskade/`](api-docs/taskade/)
+
+---
+
+## 📏 Height
+
+Project management.
+
+📁 **Path:** [`api-docs/height/`](api-docs/height/)
+
+---
+
+## 🎬 Loom
+
+Video messaging.
+
+📁 **Path:** [`api-docs/loom/`](api-docs/loom/)
+
+---
+
+## 🥜 Nutshell
+
+CRM for small business.
+
+📁 **Path:** [`api-docs/nutshell/`](api-docs/nutshell/)
+
+---
+
+## 🤝 Nimble
+
+Relationship CRM.
+
+📁 **Path:** [`api-docs/nimble/`](api-docs/nimble/)
+
+---
+
+## 🏔️ Mighty Networks
+
+Community platform.
+
+📁 **Path:** [`api-docs/mighty-networks/`](api-docs/mighty-networks/)
+
+---
+
+## 💸 Refersion
+
+Affiliate tracking.
+
+📁 **Path:** [`api-docs/refersion/`](api-docs/refersion/)
+
+---
+
+## 📈 Everflow
+
+Partner marketing.
+
+📁 **Path:** [`api-docs/everflow/`](api-docs/everflow/)
+
+---
+
+## 🚀 Ontraport
+
+Business automation.
+
+📁 **Path:** [`api-docs/ontraport/`](api-docs/ontraport/)
+
+---
+
+## 💡 UserVoice
+
+Customer feedback.
+
+📁 **Path:** [`api-docs/uservoice/`](api-docs/uservoice/)
+
+---
+
+## 👔 JazzHR
+
+Applicant tracking.
+
+📁 **Path:** [`api-docs/jazzhr/`](api-docs/jazzhr/)
+
+---
+
+## 👥 Factorial
+
+HR management.
+
+📁 **Path:** [`api-docs/factorial/`](api-docs/factorial/)
+
+---
+
+## 🎓 Canvas LMS
+
+Learning management.
+
+📁 **Path:** [`api-docs/canvas-lms/`](api-docs/canvas-lms/)
+
+---
+
+## 🌍 Weglot
+
+Translation service.
+
+📁 **Path:** [`api-docs/weglot/`](api-docs/weglot/)
+
+---
+
+## 📅 Doodle
+
+Meeting scheduling.
+
+📁 **Path:** [`api-docs/doodle/`](api-docs/doodle/)
+
+---
+
+## 🏦 Mercury
+
+Business banking.
+
+📁 **Path:** [`api-docs/mercury/`](api-docs/mercury/)
+
+---
+
+## 💇 Booksy
+
+Appointment booking.
+
+📁 **Path:** [`api-docs/booksy/`](api-docs/booksy/)
+
+---
+
+## 🏥 Healthie
+
+Healthcare practice.
+
+📁 **Path:** [`api-docs/healthie/`](api-docs/healthie/)
+
+---
+
+## 🎨 Creator Webhooks
+
+Universal handler for creator platforms: Ko-fi, Buy Me a Coffee, Skool, Rewardful, FirstPromoter, Tapfiliate.
+
+📁 **Path:** [`webhooks/creator-platforms/`](webhooks/creator-platforms/)
+
+---
+
+## 💬 Chat Webhooks
+
+Universal handler for chat/support: Olark, Tawk.to, Hotjar, Survicate, Delighted, Canny.
+
+📁 **Path:** [`webhooks/chat-support/`](webhooks/chat-support/)
+
+---
+
+## 🏥 Healthcare Webhooks
+
+Universal handler for healthcare: Jane App, SimplePractice, Cliniko, Practice Better.
+
+📁 **Path:** [`webhooks/healthcare/`](webhooks/healthcare/)
 
 ---
 
