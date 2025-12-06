@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.adsmedia.ai/assets/logo-dark.svg" alt="ADSMedia Logo" width="300">
+  <img src="https://www.adsmedia.ai/logoBig.png" alt="ADSMedia Logo" width="300">
 </p>
 
 <h1 align="center">ADSMedia Integrations</h1>
