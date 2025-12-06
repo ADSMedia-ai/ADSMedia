@@ -1,0 +1,9 @@
+{
+  "name": "@automatisch/adsmedia",
+  "version": "1.0.0",
+  "description": "ADSMedia connector for Automatisch",
+  "main": "index.js",
+  "author": "ADSMedia <dev@adsmedia.ai>",
+  "license": "MIT"
+}
+

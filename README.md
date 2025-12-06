@@ -47,6 +47,10 @@
 | [LlamaIndex](#-llamaindex) | AI Tool | ✅ Ready | LLM tool |
 | [FlowiseAI](#-flowiseai) | AI Tool | ✅ Ready | Custom tool |
 | [Webhook Handler](#-webhook-handler) | Generic | ✅ Ready | Multi-platform |
+| [Ruby SDK](#-ruby-sdk) | RubyGems | ✅ Ready | gem install |
+| [Mattermost](#-mattermost) | Plugin | ✅ Ready | Slash commands |
+| [Automatisch](#-automatisch) | Connector | ✅ Ready | Open-source Zapier |
+| [Cloudflare Workers](#-cloudflare-workers) | Serverless | ✅ Ready | Edge email |
 
 ---
 
@@ -576,6 +580,62 @@ Generic webhook handler for multiple platforms.
 Supports: Tally, Gumroad, Lemon Squeezy, Cal.com, Acuity, etc.
 
 📁 **Path:** `webhooks/generic/`
+
+---
+
+## 💎 Ruby SDK
+
+Official Ruby SDK for RubyGems.
+
+```bash
+gem install adsmedia
+```
+
+```ruby
+client = ADSMedia::Client.new('your-api-key')
+result = client.send_email(
+  to: 'user@example.com',
+  subject: 'Hello!',
+  html: '<h1>Welcome!</h1>'
+)
+```
+
+📁 **Path:** `SDK/ruby/adsmedia/`
+
+---
+
+## 💬 Mattermost
+
+Plugin with `/email` slash command.
+
+```
+/email user@example.com "Subject" "Message"
+```
+
+📁 **Path:** `plugins/mattermost/mattermost-plugin-adsmedia/`
+
+---
+
+## ⚡ Automatisch
+
+Open-source Zapier alternative connector.
+
+**Actions:** Send Email, Send Batch, Check Suppression, Add Contacts
+
+📁 **Path:** `iPaaS/automatisch/adsmedia-connector/`
+
+---
+
+## ☁️ Cloudflare Workers
+
+Serverless email at the edge.
+
+```bash
+wrangler secret put ADSMEDIA_API_KEY
+wrangler deploy
+```
+
+📁 **Path:** `serverless/cloudflare-workers/`
 
 ---
 
