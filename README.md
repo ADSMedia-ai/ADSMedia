@@ -94,6 +94,22 @@
 | [Scheduling Webhooks](#-scheduling-webhooks) | Booking | ✅ Ready | Acuity, Calendly, etc |
 | [Analytics Webhooks](#-analytics-webhooks) | Analytics | ✅ Ready | PostHog, etc |
 | [Webinar Webhooks](#-webinar-webhooks) | Webinars | ✅ Ready | Demio, etc |
+| [Drip](#-drip) | Marketing | ✅ Ready | Email automation |
+| [Beehiiv](#-beehiiv) | Marketing | ✅ Ready | Newsletter platform |
+| [Unlayer](#-unlayer) | Design | ✅ Ready | Email editor SDK |
+| [Saleor](#-saleor) | E-commerce | ✅ Ready | Order emails |
+| [Vendure](#-vendure) | E-commerce | ✅ Ready | Order emails |
+| [Sylius](#-sylius) | E-commerce | ✅ Ready | Order emails |
+| [Spree](#-spree) | E-commerce | ✅ Ready | Order emails |
+| [Twenty](#-twenty) | CRM | ✅ Ready | Contact emails |
+| [Invoice Ninja](#-invoice-ninja) | CRM | ✅ Ready | Invoice emails |
+| [Post Affiliate Pro](#-post-affiliate-pro) | CRM | ✅ Ready | Affiliate emails |
+| [Prismic](#-prismic) | CMS | ✅ Ready | Content-based emails |
+| [DatoCMS](#-datocms) | CMS | ✅ Ready | Content-based emails |
+| [SeaTable](#-seatable) | Database | ✅ Ready | Data-driven emails |
+| [LearnDash](#-learndash) | Education | ✅ Ready | Course emails |
+| [Moodle](#-moodle) | Education | ✅ Ready | LMS emails |
+| [Figma](#-figma) | Design | ✅ Ready | Export designs |
 
 ---
 
@@ -1181,6 +1197,214 @@ Universal handler: Demio, WebinarJam, eWebinar, BigMarker, Crowdcast.
 3. Navigate to **Account → API Keys**
 4. Create a new API key
 5. Copy and use in your integration
+
+---
+
+## 📧 Drip
+
+Marketing automation integration with Drip.
+
+📁 **Path:** [`marketing/drip/`](marketing/drip/)
+
+**Features:**
+- Webhook handlers for subscriber events
+- Commission email triggers via ADSMedia
+- Sync email events back to Drip
+
+---
+
+## 📧 Beehiiv
+
+Newsletter platform integration.
+
+📁 **Path:** [`marketing/beehiiv/`](marketing/beehiiv/)
+
+**Features:**
+- Welcome emails for new subscribers
+- Premium upgrade notifications
+- Batch newsletter sending
+
+---
+
+## 🎨 Unlayer
+
+Drag-and-drop email editor integration.
+
+📁 **Path:** [`design/unlayer/`](design/unlayer/)
+
+**Features:**
+- Embed Unlayer editor
+- Export HTML and send via ADSMedia
+- Template management
+
+---
+
+## 🛒 Saleor
+
+Headless e-commerce platform.
+
+📁 **Path:** [`ecommerce/saleor/`](ecommerce/saleor/)
+
+**Features:**
+- Order confirmation emails
+- Shipping notifications
+- Customer welcome emails
+
+---
+
+## 🛒 Vendure
+
+Headless commerce framework.
+
+📁 **Path:** [`ecommerce/vendure/`](ecommerce/vendure/)
+
+**Features:**
+- Custom EmailSender
+- Order lifecycle emails
+- Handlebars templates
+
+---
+
+## 🛒 Sylius
+
+PHP e-commerce framework.
+
+📁 **Path:** [`ecommerce/sylius/`](ecommerce/sylius/)
+
+**Features:**
+- Symfony mailer override
+- Order and payment emails
+- Event subscribers
+
+---
+
+## 🛒 Spree
+
+Ruby e-commerce framework.
+
+📁 **Path:** [`ecommerce/spree/`](ecommerce/spree/)
+
+**Features:**
+- Mailer decorator
+- Order confirmation
+- Shipment notifications
+
+---
+
+## 👥 Twenty
+
+Open-source CRM.
+
+📁 **Path:** [`crm/twenty/`](crm/twenty/)
+
+**Features:**
+- Contact welcome emails
+- Deal stage notifications
+- Batch campaign sending
+
+---
+
+## 💰 Invoice Ninja
+
+Open-source invoicing.
+
+📁 **Path:** [`crm/invoice-ninja/`](crm/invoice-ninja/)
+
+**Features:**
+- Invoice emails
+- Payment confirmations
+- Payment reminders
+
+---
+
+## 🤝 Post Affiliate Pro
+
+Affiliate tracking platform.
+
+📁 **Path:** [`crm/post-affiliate-pro/`](crm/post-affiliate-pro/)
+
+**Features:**
+- Affiliate welcome emails
+- Commission notifications
+- Payout confirmations
+
+---
+
+## 📝 Prismic
+
+Headless CMS.
+
+📁 **Path:** [`cms/prismic/`](cms/prismic/)
+
+**Features:**
+- Email templates from CMS
+- Slice-based email builder
+- Auto-send on publish
+
+---
+
+## 📝 DatoCMS
+
+Headless CMS.
+
+📁 **Path:** [`cms/datocms/`](cms/datocms/)
+
+**Features:**
+- GraphQL content queries
+- Structured text to HTML
+- Webhook automation
+
+---
+
+## 📊 SeaTable
+
+Collaborative database.
+
+📁 **Path:** [`cms/seatable/`](cms/seatable/)
+
+**Features:**
+- Script-based email sending
+- Button column triggers
+- Mail merge from tables
+
+---
+
+## 🎓 LearnDash
+
+WordPress LMS plugin.
+
+📁 **Path:** [`education/learndash/`](education/learndash/)
+
+**Features:**
+- Course enrollment emails
+- Lesson completion notifications
+- Certificate delivery
+
+---
+
+## 🎓 Moodle
+
+Open-source LMS.
+
+📁 **Path:** [`education/moodle/`](education/moodle/)
+
+**Features:**
+- Course enrollment notifications
+- Assignment submissions
+- Grade notifications
+
+---
+
+## 🎨 Figma
+
+Design tool plugin.
+
+📁 **Path:** [`design/figma/`](design/figma/)
+
+**Features:**
+- Export frames to HTML
+- Send test emails from Figma
+- Convert designs to email
 
 ---
 
