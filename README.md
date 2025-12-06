@@ -82,6 +82,18 @@
 | [ToolJet](#-tooljet) | No-Code | ✅ Ready | REST API |
 | [Xano](#-xano) | Backend | ✅ Ready | External API |
 | [Windsurf](#-windsurf) | MCP | ✅ Ready | AI IDE |
+| [Coze](#-coze) | AI Plugin | ✅ Ready | AI chatbot |
+| [Drupal](#-drupal) | CMS | ✅ Ready | Mail system |
+| [Joomla](#-joomla) | CMS | ✅ Ready | Mail plugin |
+| [Crisp](#-crisp) | Chat | ✅ Ready | Webhook |
+| [Sanity](#-sanity) | CMS | ✅ Ready | Studio tool |
+| [Cal.com](#-calcom) | Scheduling | ✅ Ready | Webhook |
+| [Form Webhooks](#-form-webhooks) | Forms | ✅ Ready | Tally, Typeform, etc |
+| [E-commerce Webhooks](#-e-commerce-webhooks) | E-commerce | ✅ Ready | Stripe, Gumroad, etc |
+| [Membership Webhooks](#-membership-webhooks) | Membership | ✅ Ready | Memberful, etc |
+| [Scheduling Webhooks](#-scheduling-webhooks) | Booking | ✅ Ready | Acuity, Calendly, etc |
+| [Analytics Webhooks](#-analytics-webhooks) | Analytics | ✅ Ready | PostHog, etc |
+| [Webinar Webhooks](#-webinar-webhooks) | Webinars | ✅ Ready | Demio, etc |
 
 ---
 
@@ -1063,6 +1075,102 @@ Windsurf IDE MCP integration (same as Cursor).
 ```
 
 📁 **Path:** `MCP/windsurf/`
+
+---
+
+## 🤖 Coze
+
+Coze.com AI chatbot plugin for email operations.
+
+📁 **Path:** `AI/coze/`
+
+---
+
+## 🐘 Drupal
+
+Drupal system plugin for mail integration.
+
+📁 **Path:** `plugins/drupal/`
+
+---
+
+## 🌐 Joomla
+
+Joomla system plugin for mail integration.
+
+📁 **Path:** `plugins/joomla/`
+
+---
+
+## 💬 Crisp
+
+Crisp chat webhook integration.
+
+📁 **Path:** `plugins/crisp/`
+
+---
+
+## 📝 Sanity
+
+Sanity.io CMS webhook and studio tool.
+
+📁 **Path:** `plugins/sanity/`
+
+---
+
+## 📅 Cal.com
+
+Cal.com booking webhook integration.
+
+📁 **Path:** `scheduling/cal-com/`
+
+---
+
+## 📋 Form Webhooks
+
+Universal handler for form platforms: Tally, Fillout, Typeform, Jotform, Formspree, and more.
+
+📁 **Path:** `webhooks/forms/`
+
+---
+
+## 🛒 E-commerce Webhooks
+
+Universal handler for e-commerce: Gumroad, Lemon Squeezy, Paddle, Stripe, Shopify.
+
+📁 **Path:** `webhooks/ecommerce/`
+
+---
+
+## 👥 Membership Webhooks
+
+Universal handler: Memberful, Memberstack, Circle, Teachable, Thinkific, Kajabi, Podia, Skool.
+
+📁 **Path:** `webhooks/memberships/`
+
+---
+
+## 📆 Scheduling Webhooks
+
+Universal handler: Acuity, Calendly, YouCanBook.me, Setmore, SimplyBook.me, Square.
+
+📁 **Path:** `webhooks/scheduling/`
+
+---
+
+## 📊 Analytics Webhooks
+
+Alert handler for: PostHog, Mixpanel, Amplitude, Plausible.
+
+📁 **Path:** `webhooks/analytics/`
+
+---
+
+## 🎬 Webinar Webhooks
+
+Universal handler: Demio, WebinarJam, eWebinar, BigMarker, Crowdcast.
+
+📁 **Path:** `webhooks/webinars/`
 
 ---
 
