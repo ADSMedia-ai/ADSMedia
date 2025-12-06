@@ -110,6 +110,24 @@
 | [LearnDash](#-learndash) | Education | ✅ Ready | Course emails |
 | [Moodle](#-moodle) | Education | ✅ Ready | LMS emails |
 | [Figma](#-figma) | Design | ✅ Ready | Export designs |
+| [Latenode](#-latenode) | Automation | ✅ Ready | HTTP workflows |
+| [OpenRouter](#-openrouter) | AI | ✅ Ready | AI-generated emails |
+| [Linear](#-linear) | Project Mgmt | ✅ Ready | Issue notifications |
+| [Attio](#-attio) | CRM | ✅ Ready | Contact emails |
+| [Folk](#-folk) | CRM | ✅ Ready | Contact emails |
+| [Buttondown](#-buttondown) | Newsletter | ✅ Ready | Transactional |
+| [Patreon](#-patreon) | Creator | ✅ Ready | Patron emails |
+| [Shippo](#-shippo) | Shipping | ✅ Ready | Tracking emails |
+| [Mixpanel](#-mixpanel) | Analytics | ✅ Ready | Cohort emails |
+| [Amplitude](#-amplitude) | Analytics | ✅ Ready | Segment emails |
+| [Close](#-close) | CRM | ✅ Ready | Lead emails |
+| [Workable](#-workable) | ATS | ✅ Ready | Candidate emails |
+| [Heap](#-heap) | Analytics | ✅ Ready | Segment emails |
+| [Tidio](#-tidio) | Chat | ✅ Ready | Follow-ups |
+| [Fibery](#-fibery) | Workspace | ✅ Ready | Automations |
+| [ProductBoard](#-productboard) | Product | ✅ Ready | Feature updates |
+| [EasyPost](#-easypost) | Shipping | ✅ Ready | Tracking emails |
+| [Additional Webhooks](#-additional-webhooks) | Various | ✅ Ready | 15+ platforms |
 
 ---
 
@@ -1405,6 +1423,150 @@ Design tool plugin.
 - Export frames to HTML
 - Send test emails from Figma
 - Convert designs to email
+
+---
+
+## 🔗 Latenode
+
+Low-code automation platform.
+
+📁 **Path:** [`api-docs/latenode/`](api-docs/latenode/)
+
+---
+
+## 🤖 OpenRouter
+
+AI model routing for email generation.
+
+📁 **Path:** [`api-docs/openrouter/`](api-docs/openrouter/)
+
+---
+
+## 📋 Linear
+
+Project management notifications.
+
+📁 **Path:** [`api-docs/linear/`](api-docs/linear/)
+
+---
+
+## 👥 Attio
+
+Modern CRM integration.
+
+📁 **Path:** [`api-docs/attio/`](api-docs/attio/)
+
+---
+
+## 👥 Folk
+
+Relationship-focused CRM.
+
+📁 **Path:** [`api-docs/folk/`](api-docs/folk/)
+
+---
+
+## 📧 Buttondown
+
+Newsletter platform.
+
+📁 **Path:** [`api-docs/buttondown/`](api-docs/buttondown/)
+
+---
+
+## 🎨 Patreon
+
+Creator platform.
+
+📁 **Path:** [`api-docs/patreon/`](api-docs/patreon/)
+
+---
+
+## 📦 Shippo
+
+Shipping API.
+
+📁 **Path:** [`api-docs/shippo/`](api-docs/shippo/)
+
+---
+
+## 📊 Mixpanel
+
+Product analytics.
+
+📁 **Path:** [`api-docs/mixpanel/`](api-docs/mixpanel/)
+
+---
+
+## 📊 Amplitude
+
+Behavioral analytics.
+
+📁 **Path:** [`api-docs/amplitude/`](api-docs/amplitude/)
+
+---
+
+## 💼 Close
+
+Sales CRM.
+
+📁 **Path:** [`api-docs/close/`](api-docs/close/)
+
+---
+
+## 👔 Workable
+
+Applicant tracking.
+
+📁 **Path:** [`api-docs/workable/`](api-docs/workable/)
+
+---
+
+## 📊 Heap
+
+Digital insights.
+
+📁 **Path:** [`api-docs/heap/`](api-docs/heap/)
+
+---
+
+## 💬 Tidio
+
+Live chat.
+
+📁 **Path:** [`api-docs/tidio/`](api-docs/tidio/)
+
+---
+
+## 🗂️ Fibery
+
+Connected workspace.
+
+📁 **Path:** [`api-docs/fibery/`](api-docs/fibery/)
+
+---
+
+## 📦 ProductBoard
+
+Product management.
+
+📁 **Path:** [`api-docs/productboard/`](api-docs/productboard/)
+
+---
+
+## 📦 EasyPost
+
+Shipping API.
+
+📁 **Path:** [`api-docs/easypost/`](api-docs/easypost/)
+
+---
+
+## 🔗 Additional Webhooks
+
+Universal handlers for 15+ platforms including Reform, Basin, Paperform, Cognito Forms, Wufoo, Carrd, NocoDB, Recurly, Survicate, Canny, and more.
+
+📁 **Path:** [`webhooks/additional/`](webhooks/additional/)
 
 ---
 
