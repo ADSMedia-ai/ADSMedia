@@ -21,10 +21,10 @@
 
 | Integration | Type | Status | Description |
 |-------------|------|--------|-------------|
-| [WordPress](#wordpress-plugin) | Plugin | ✅ Ready | Replace wp_mail() with ADSMedia API |
-| [WooCommerce](#woocommerce-plugin) | Plugin | ✅ Ready | Send order emails via ADSMedia |
-| [n8n](#n8n-community-node) | Community Node | ✅ Ready | Automate email workflows |
-| [Cursor IDE](#cursor-ide-mcp) | MCP | ✅ Ready | AI-powered email sending |
+| [WordPress](-#wordpress-plugin) | Plugin | ✅ Ready | Replace wp_mail() with ADSMedia API |
+| [WooCommerce](-#woocommerce-plugin) | Plugin | ✅ Ready | Send order emails via ADSMedia |
+| [n8n](-#n8n-community-node) | Community Node | ✅ Ready | Automate email workflows |
+| [Cursor IDE](-#cursor-ide-mcp) | MCP | ✅ Ready | AI-powered email sending |
 
 ---
 
