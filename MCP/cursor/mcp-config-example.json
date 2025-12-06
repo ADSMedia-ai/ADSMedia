@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "adsmedia": {
+      "command": "node",
+      "args": ["C:/путь/к/adsmedia-mcp/dist/index.js"],
+      "env": {
+        "ADSMEDIA_API_KEY": ""
+      }
+    }
+  }
+}
+
